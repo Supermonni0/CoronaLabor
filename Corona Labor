@@ -1,1 +1,8 @@
+import pandas as pd
+import matplotlib.pyplot as plt
 
+#einlesen der Daten
+
+corona = pd.read_csv('2022-03-20_12-15_teilbare_divi_daten.csv')
+
+corona.head()
